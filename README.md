@@ -2,7 +2,7 @@
 
 This lab demonstrates how to configure SAML-based Single Sign-On (SSO) using Microsoft Entra ID.
 
-The objective of this project was to create an enterprise application, assign a user, configure SAML authentication settings, and verify the SSO login.
+The objective of this project was to create an enterprise application, assign a user to the application, configure SAML authentication settings, and verify the SSO login process.
 
 ---
 
