@@ -1,14 +1,13 @@
 # Microsoft Entra ID SAML Single Sign-On Lab
 
-This lab demonstrates how SAML-based single sign-on can be configured in Microsoft Entra ID.
+This lab demonstrates how to configure SAML-based Single Sign-On (SSO) using Microsoft Entra ID (Azure AD).
 
-The goal was to create an enterprise application, assign a user, configure SAML authentication, and verify that SSO works.
+The objective was to create an enterprise application, assign a user, configure SAML authentication settings, and test the SSO login.
 
 ---
 
 ## Tools Used
-
-Microsoft Entra ID (Azure AD)
+- Microsoft Entra ID (Azure AD)
 
 ---
 
@@ -16,46 +15,41 @@ Microsoft Entra ID (Azure AD)
 
 1. Created an Enterprise Application using the Microsoft Entra SAML Toolkit.
 2. Assigned a user account to the application.
-3. Enabled SAML as the authentication method.
-4. Configured the required SAML settings:
-- Identifier (Entity ID)
-- Reply URL
-- Sign-on URL
-5. Verified that a SAML token could be issued during login.
+3. Enabled SAML authentication.
+4. Configured the Identifier, Reply URL, and Sign-on URL.
+5. Tested the SSO authentication process.
 
 ---
 
-## Screenshots
+## Enterprise Application Created
+![Figure 1](IMG_4523.jpeg)
 
-### Enterprise Application Created
-![Figure 1](figure1-enterprise-app-created.png)
+## User Selected for Assignment
+![Figure 2](IMG_4524.jpeg)
 
-### User Selected for Assignment
-![Figure 2](figure2-select-user.png)
+## User Ready for Assignment
+![Figure 3](IMG_4525.jpeg)
 
-### User Ready for Assignment
-![Figure 3](figure3-user-selected.png)
+## User Successfully Assigned
+![Figure 4](IMG_4526.jpeg)
 
-### User Successfully Assigned
-![Figure 4](figure4-user-assigned.png)
+## SAML Selected as Authentication Method
+![Figure 5](IMG_4527.jpeg)
 
-### SAML Selected as Authentication Method
-![Figure 5](figure5-saml-selected.png)
+## Basic SAML Configuration
+![Figure 6](IMG_4528.jpeg)
 
-### Basic SAML Configuration
-![Figure 6](figure6-basic-saml-config.png)
+## Successful SAML SSO Test
+![Figure 7](IMG_4529.jpeg)
 
-### Successful SAML SSO Test
-![Figure 7](figure7-sso-test-success.png)
-
-### Token Signing Certificate
-![Figure 8](figure8-token-signing-certificate.png)
+## Token Signing Certificate
+![Figure 8](IMG_4530.jpeg)
 
 ---
 
-## What This Demonstrates
-
-• Enterprise application configuration
-• Identity assignment and access management
-• SAML authentication setup
-• Single sign-on validation
+## Skills Demonstrated
+- Microsoft Entra ID configuration
+- Identity and Access Management (IAM)
+- SAML authentication
+- Enterprise application configuration
+- Single Sign-On (SSO)
